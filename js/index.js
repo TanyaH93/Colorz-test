@@ -1,5 +1,5 @@
- const hamburger = document.querySelector(".hamburger-btn");
-const isHamburgerMenuOpen = false;
+let hamburger = document.querySelector(".hamburger-btn");
+let isHamburgerMenuOpen = false;
 hamburger.addEventListener("click", () => {
     if(isHamburgerMenuOpen){
         isHamburgerMenuOpen = !isHamburgerMenuOpen;
@@ -9,3 +9,4 @@ hamburger.addEventListener("click", () => {
         hamburger.classList.add("open");
     }
 });
+
