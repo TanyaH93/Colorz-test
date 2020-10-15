@@ -1,5 +1,5 @@
-var hamburger = document.querySelector(".hamburger-btn");
-var isHamburgerMenuOpen = false;
+ const hamburger = document.querySelector(".hamburger-btn");
+const isHamburgerMenuOpen = false;
 hamburger.addEventListener("click", () => {
     if(isHamburgerMenuOpen){
         isHamburgerMenuOpen = !isHamburgerMenuOpen;
